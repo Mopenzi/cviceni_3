@@ -55,7 +55,7 @@ print()
 #Zobrazi seznam reziseru
 print("Všichni režiséři:")
 print(oddelovac)
-# tady to mi asi prijde, ze chteli, abychom udelali... jinak vubec nechapu... to zadani je fakt na pytel
+# tady to mi asi prijde, ze chteli, abychom udelali... jinak vubec nechapu... 
 reziseri = set()
 for film in filmy.keys():
     reziseri.add(filmy[film]["reziser"])
